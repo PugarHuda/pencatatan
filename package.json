@@ -1,0 +1,44 @@
+{
+  "name": "vue-sidebar-menu-akahon",
+  "version": "1.0.2",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build:wc": "cross-env vue-cli-service build --target wc --name vue-sidebar-menu-akahon 'src/components/Sidebar-menu-akahon.vue'",
+    "start": "vue-cli-service build",
+    "dev": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.14",
+    "vue-latest-table": "^1.0.5",
+    "vue-sidebar-menu-akahon": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.2.1",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": "src/components/Sidebar-menu-akahon.vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akahon/vue-sidebar-menu-akahon.git"
+  },
+  "keywords": [
+    "sidebar",
+    "menu",
+    "akahon",
+    "vue"
+  ]
+}
