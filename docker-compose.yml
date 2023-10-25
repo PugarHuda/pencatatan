@@ -7,9 +7,9 @@ services:
     volumes:
       - ./data/database:/var/lib/postgresql/data
     environment:
-      POSTGRES_USER: 'directus'
-      POSTGRES_PASSWORD: 'directus'
-      POSTGRES_DB: 'directus'
+      POSTGRES_USER: 'ttv'
+      POSTGRES_PASSWORD: 'ttv'
+      POSTGRES_DB: 'ttv'
 
   cache:
     image: redis:6
@@ -33,7 +33,7 @@ services:
       CACHE_STORE: 'redis'
       REDIS: 'redis://cache:6379'
 
-      ADMIN_EMAIL: 'huda@gmail.com'
+      ADMIN_EMAIL: 'ttv@gmail.com'
       ADMIN_PASSWORD: 'ayamgoreng'
 
       CORS_ENABLED: 'true'
